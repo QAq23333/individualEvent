@@ -6,12 +6,24 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.awt.*;
+
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/sample.fxml"));
+        /*
+        //获取屏幕长宽
+
+        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+        double screenHigh = screen.height;
+        double screenWide = screen.width;
+        */
+
+
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/shouyin.fxml"));
         Scene scene = new Scene(root,650,500);
+        scene.getStylesheets().add("/css/style.css");
         primaryStage.setTitle("收银界面");
         primaryStage.setScene(scene);
         primaryStage.show();
