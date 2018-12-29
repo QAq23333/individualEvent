@@ -16,6 +16,7 @@
     -fx-background-color: #ffbb00;
 }
 
+/*结账按钮*/
 .btn-jiezhang{
     /*文本对齐方式*/
     -fx-text-alignment: center;

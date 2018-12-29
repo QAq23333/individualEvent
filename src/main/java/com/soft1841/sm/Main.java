@@ -18,8 +18,6 @@ import java.awt.*;
             double screenHigh = screen.height;
             double screenWide = screen.width;
 
-
-
             Parent root = FXMLLoader.load(getClass().getResource("/fxml/fxml/shouyin.fxml"));
             Scene scene = new Scene(root,screenWide,screenHigh);
             scene.getStylesheets().add("/css/css/style.css");
