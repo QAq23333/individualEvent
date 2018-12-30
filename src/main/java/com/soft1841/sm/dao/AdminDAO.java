@@ -6,11 +6,7 @@ import com.soft1841.sm.entity.Admin;
 
 import java.sql.SQLException;
 
-/**
- * 管理员登陆DAO
- * @author 杨晶
- * 2018-12-24
- */
+
 
 public interface AdminDAO {
     /**
@@ -20,5 +16,4 @@ public interface AdminDAO {
      * @throws SQLException
      */
     Admin getAdminByNumber(String adminNumber)throws SQLException;
-
 }

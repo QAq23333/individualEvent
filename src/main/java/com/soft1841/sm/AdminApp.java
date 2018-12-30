@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 
 /**
  * 管理员主程序
- * @author 杨晶
  */
 
 public class AdminApp extends Application {

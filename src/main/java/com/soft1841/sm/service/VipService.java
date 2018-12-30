@@ -6,8 +6,6 @@ import java.util.List;
 
 /**
  * 会员业务逻辑接口
- * @author 杨晶
- * 2018-12-27
  */
 
 public interface VipService {

@@ -9,7 +9,6 @@ import java.sql.SQLException;
 
 /**
  * 管理员Service的实现类
- * @author 杨晶
  */
 
 public class AdminServiceImpl implements AdminService {

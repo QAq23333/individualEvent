@@ -4,12 +4,6 @@ import com.soft1841.sm.entity.Vip;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * VIP DAO
- * @author 杨晶
- * 2018-12-27
- */
-
 public interface VipDAO {
     /**
      * 查询所有Vip信息

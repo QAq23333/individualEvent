@@ -19,9 +19,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 /**
- * 后台主界面 控制器
- * @author 杨晶
- * 2018-12-25
+ * 后台主界面控制器
  */
 
 public class MainAdminController implements Initializable {
@@ -81,6 +79,3 @@ public class MainAdminController implements Initializable {
 
     }
 }
-
-
-

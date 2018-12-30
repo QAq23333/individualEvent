@@ -30,8 +30,6 @@ import java.util.ResourceBundle;
 
 /**
  * 商品信息管理界面
- * @author 杨晶
- * 2018-12-26
  */
 
 public class GoodsController implements Initializable {

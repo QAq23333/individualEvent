@@ -5,7 +5,6 @@ import javafx.beans.property.SimpleStringProperty;
 
 /**
  * 类别实体类
- * @author 杨晶
  */
 
 public class Type {
