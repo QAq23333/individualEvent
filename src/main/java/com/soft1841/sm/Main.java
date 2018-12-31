@@ -18,8 +18,8 @@ import java.awt.*;
             double screenHigh = screen.height;
             double screenWide = screen.width;
 
-            Parent root = FXMLLoader.load(getClass().getResource("/fxml/fxml/shouyin.fxml"));
-            Scene scene = new Scene(root,screenWide,screenHigh);
+            Parent root = FXMLLoader.load(getClass().getResource("/fxml/fxml/mainseller.fxml"));
+            Scene scene = new Scene(root,500,600);
             scene.getStylesheets().add("/css/css/style.css");
             primaryStage.setTitle("收银界面");
             primaryStage.setScene(scene);
