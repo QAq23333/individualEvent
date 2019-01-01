@@ -55,3 +55,9 @@
     /*文本对齐方式*/
     -fx-text-alignment: center;
 }
+
+/*添加按钮*/
+.btn-tianjia{
+    /*背景颜色*/
+    -fx-background-color:#000000;
+}
