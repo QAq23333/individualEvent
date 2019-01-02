@@ -20,7 +20,9 @@ import java.util.List;
 import java.util.ResourceBundle;
 
 
-public class AddGoodsController  implements Initializable {
+public class
+
+AddGoodsController  implements Initializable {
     private ObservableList<Goods> goodsData = FXCollections.observableArrayList();
     public ObservableList<Goods> getGoodsData() {
         return goodsData;

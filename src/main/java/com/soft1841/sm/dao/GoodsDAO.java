@@ -6,10 +6,8 @@ import com.soft1841.sm.entity.Goods;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * 商品DAO
- * @author 杨晶
- */
+//商品DAO
+
 
 public interface GoodsDAO {
     /**

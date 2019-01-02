@@ -17,11 +17,6 @@
 }
 
 
-
-
-
-
-
 /*数字按钮*/
 .btn-number{
     /*背景颜色*/
@@ -43,7 +38,7 @@
 /*VIP服务按钮*/
 .btn-vip{
     /*背景颜色*/
-    -fx-background-color:#000000;
+    -fx-background-color: #96f2df;
     /*文本对齐方式*/
     -fx-text-alignment: center;
 }
@@ -51,7 +46,7 @@
 /*结账按钮*/
 .btn-jiezhang{
     /*背景颜色*/
-    -fx-background-color:#000000;
+    -fx-background-color: #90c7aa;
     /*文本对齐方式*/
     -fx-text-alignment: center;
 }
@@ -59,5 +54,5 @@
 /*添加按钮*/
 .btn-tianjia{
     /*背景颜色*/
-    -fx-background-color:#000000;
+    -fx-background-color: #7df2d7;
 }

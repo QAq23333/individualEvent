@@ -28,9 +28,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
-/**
- * 商品信息管理界面
- */
+//商品信息管理界面
 
 public class GoodsController implements Initializable {
 //    布局文件中的表格视图对象，用来显示数据库中读取的所有商品信息
@@ -61,11 +59,8 @@ public class GoodsController implements Initializable {
     //表格中的删除列
     private TableColumn<Goods ,Goods> delCol = new TableColumn<>("操作");
 
-    /**
-     * 初始化方法，通过调用对图书表格和列表下拉框的两个封装方法，实现数据初始化
-     * @param location
-     * @param resources
-     */
+    //初始化方法，通过调用对图书表格和列表下拉框的两个封装方法，实现数据初始化
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         initTable();

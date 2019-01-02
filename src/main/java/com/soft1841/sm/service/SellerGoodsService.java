@@ -6,10 +6,7 @@ import java.util.List;
 
 public interface SellerGoodsService {
 
-    /**
-     * 查询所有图书
-     * @return
-     */
+    //查询所有图书
     List<Goods> getAllGooods();
 
 }

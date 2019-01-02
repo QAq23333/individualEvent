@@ -5,14 +5,11 @@ import com.soft1841.sm.entity.Type;
 
 import java.sql.SQLException;
 import java.util.List;
-/**
- * 图书类别DAO接口
- * @author 杨晶
- */
+//类别管理DAO
 
 public interface TypeDAO {
     /**
-     * 新增图书类别, 返回自增主键(Long)
+     * 新增类别, 返回自增主键(Long)
      * @param type
      * @return
      */

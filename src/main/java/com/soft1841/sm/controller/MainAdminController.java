@@ -37,15 +37,15 @@ public class MainAdminController implements Initializable {
     public  void listVip() throws  Exception{
         switchView("vip.fxml");
     }
-        public  void  web() throws  Exception{
-            Stage stage = new Stage();
-            WebView webView = new WebView();
-            WebEngine webEngine = webView.getEngine();
-            webEngine.load("https://www.baidu.com/?tn=64075107_1_dg");
-            Scene scene = new Scene(webView);
-            stage.setScene(scene);
-            stage.show();
-        }
+    public  void  web() throws  Exception{
+        Stage stage = new Stage();
+        WebView webView = new WebView();
+        WebEngine webEngine = webView.getEngine();
+        webEngine.load("https://www.baidu.com/?tn=64075107_1_dg");
+        Scene scene = new Scene(webView);
+        stage.setScene(scene);
+        stage.show();
+    }
     public  void  taobao() throws  Exception{
         Stage stage = new Stage();
         WebView webView = new WebView();
@@ -65,9 +65,9 @@ public class MainAdminController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
-        public  void shouye() throws Exception {
+    public  void shouye() throws Exception {
         switchView("default.fxml");
-        }
+    }
     private void switchView(String fileName) throws Exception {
         //清除主面板之前内容
         ObservableList<Node> list = mainContainer.getChildren();

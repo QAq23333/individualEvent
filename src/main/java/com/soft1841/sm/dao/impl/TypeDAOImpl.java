@@ -9,11 +9,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 类别接口DAO的实现类
- * @author 杨晶
- * 2018-12-25
- */
+//类别接口DAO的实现类
+
 
 public class TypeDAOImpl implements TypeDAO {
 

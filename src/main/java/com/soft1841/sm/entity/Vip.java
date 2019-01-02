@@ -4,6 +4,7 @@ import java.util.Date;
 
 /**
  * 会员实体类
+ * @author 杨晶
  */
 
 public class Vip  {

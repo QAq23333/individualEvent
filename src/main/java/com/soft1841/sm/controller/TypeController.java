@@ -20,8 +20,6 @@ import java.util.ResourceBundle;
 
 /**
  * 类别管理界面
- * @author 杨晶
- * 2018-12-26
  */
 
 

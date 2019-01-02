@@ -229,3 +229,62 @@
 #9{
     -fx-background-color: rgb(244, 244, 244);
 }
+
+/*支付宝按钮*/
+.btn-zhifubao{
+    /*背景颜色*/
+    -fx-background-color: #00aaee;
+}
+
+/*微信按钮*/
+.btn-weixin{
+    /*背景颜色*/
+    -fx-background-color: #03bc08;
+}
+
+/*现金按钮*/
+.btn-xianjin{
+    /*背景颜色*/
+    -fx-background-color: #ffbb00;
+}
+
+
+/*数字按钮*/
+.btn-number{
+    /*背景颜色*/
+    -fx-background-color: #f2edd7;
+}
+
+/*数字0按钮*/
+.btn-numberZero{
+    /*背景颜色*/
+    -fx-background-color: #edebcb;
+}
+
+/*back按钮*/
+.btn-back{
+    /*背景颜色*/
+    -fx-background-color: #c7c7c7;
+}
+
+/*VIP服务按钮*/
+.btn-vip{
+    /*背景颜色*/
+    -fx-background-color: #96f2df;
+    /*文本对齐方式*/
+    -fx-text-alignment: center;
+}
+
+/*结账按钮*/
+.btn-jiezhang{
+    /*背景颜色*/
+    -fx-background-color: #90c7aa;
+    /*文本对齐方式*/
+    -fx-text-alignment: center;
+}
+
+/*添加按钮*/
+.btn-tianjia{
+    /*背景颜色*/
+    -fx-background-color: #7df2d7;
+}

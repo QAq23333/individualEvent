@@ -1,6 +1,5 @@
 package com.soft1841.sm.controller;
 
-
 import com.soft1841.sm.service.AdminService;
 import com.soft1841.sm.utils.ServiceFactory;
 import javafx.fxml.FXML;
